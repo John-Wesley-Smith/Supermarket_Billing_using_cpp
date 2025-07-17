@@ -60,7 +60,7 @@ The system uses **file handling** to store and retrieve product details.
 
 | User Type | Email                                        | Password |
 | --------- | -------------------------------------------- | -------- |
-| Admin     |   jude24@gmail.com                           | Jude123  |
+| Admin     |   "jude24 @gmail.com"                         | Jude123  |
 
 ---
 
