@@ -1,74 +1,104 @@
-# Supermarket Billing System in C++
+# 🛒 Supermarket Billing System in C++
 
-## Description
-
-This is a simple console-based **Supermarket Billing System** built using C++.
-It allows two types of users:
-
-- **Administrator** (to manage products)
-- **Buyer** (to purchase products and generate receipt)
-
-The system uses **file handling** to store and retrieve product details.
+[![C++](https://img.shields.io/badge/Language-C++-blue.svg)](https://isocpp.org/)  
+[![Beginner Project](https://img.shields.io/badge/Project-Type%3A%20Beginner-lightgrey)]()  
+[![License: Free to Use](https://img.shields.io/badge/License-Free-brightgreen.svg)]()  
 
 ---
 
-## Features
+## 📝 Overview  
 
-### Administrator
-
-- **Add Product** — Add new products with code, name, price, and discount.
-- **Edit Product** — Modify existing product details.
-- **Delete Product** — Remove products from the database.
-- **View Product List** — View all available products.
-
-> **Login Required**\
-> Default Credentials:\
-> **Email:** `jude24@gmail.com`\
-> **Password:** `Jude123`
+This project is a simple **Supermarket Billing System** developed using **C++**.  
+It simulates a small shop environment with options for **Administrator** and **Buyer**.  
+Designed for beginners to understand **Object-Oriented Programming (OOP)** concepts like Classes, Objects, File Handling, and Menu-Driven Applications.  
 
 ---
 
-### Buyer
+## 🎯 Features  
 
-- **View Products** — See the list of available products.
-- **Purchase Products** — Select multiple products, specify quantity.
-- **Get Receipt** — View bill with price, quantity, discount, and total.
+- 🛠️ **Administrator Panel**  
+  - Add Products  
+  - Edit Product Details  
+  - Delete Product  
+  - View Product List  
 
----
+- 🛒 **Buyer Panel**  
+  - View Product List  
+  - Place Orders  
+  - Generate Receipt with Total Amount and Discount  
 
-## File Structure
+- 📝 **Product Data Stored in a File (`database.txt`)**  
 
-| File           | Description                           |
-| -------------- | ------------------------------------- |
-| `database.txt` | Stores product details (auto created) |
-| `main.cpp`     | Source code of the project            |
+- 🗑️ Prevent Duplicate Product Codes  
 
----
-
-## How to Run
-
-1. Copy the code into a file named `main.cpp`.
-2. Compile using a C++ compiler:\
-   `g++ main.cpp -o supermarket`
-3. Run the executable:\
-   `./supermarket` (Linux/Mac)\
-   `supermarket.exe` (Windows)
+- 🔁 Menu-driven Loop for Continuous Operations  
 
 ---
 
-## Sample Credentials
+## 📜 Menu Options  
 
-| User Type | Email                                        | Password |
-| --------- | -------------------------------------------- | -------- |
-| Admin     |   "jude24 @gmail.com"                         | Jude123  |
+### 🛠️ Administrator Menu:  
+[1] Add Product  
+[2] Modify Product  
+[3] Delete Product  
+[4] Back to Main Menu  
+
+### 🛒 Buyer Menu:  
+[1] Buy Product  
+[2] Go Back  
+
+### 🏠 Main Menu:  
+[1] Administrator (Login Required)  
+[2] Buyer  
+[3] Exit  
 
 ---
 
-## Notes
+## 🗃️ Sample Admin Login Credentials  
 
-- Product details are saved in `database.txt` in the same directory.
-- Uses basic **file I/O** and simple **object-oriented programming** concepts.
-- Works in Turbo C++ or any modern C++ compiler.
+Email: jude24@ gmail.com <br>
+Password: Jude123
+
 
 ---
+
+## 💻 How to Run  
+
+1. Copy the code into a `.cpp` file.  
+2. Compile using any C++ compiler.  
+3. Ensure the executable can read/write `database.txt`.  
+4. Use Admin Panel to add products before accessing Buyer Panel.  
+5. Buy products and check the generated receipt.  
+
+---
+
+## 🧩 Code Concepts Used  
+
+- ✅ Object-Oriented Programming (OOP)  
+- ✅ File Handling with `fstream`  
+- ✅ Menu-Driven Programming  
+- ✅ Authentication & Validation  
+- ✅ Data Validation with Duplicate Checks  
+
+---
+
+## 📷 Sample Console Output  
+
+      Super Market Main Menu            
+| 1) Administrator | <br>
+| 2) Buyer |<br>
+| 3) Exit |<br>
+
+
+---
+
+## 📖 License  
+
+[![License: Free to Use](https://img.shields.io/badge/License-Free-brightgreen.svg)]()  
+
+This project is open for educational and personal use.  
+You are free to modify and experiment with it.  
+
+---
+
 
