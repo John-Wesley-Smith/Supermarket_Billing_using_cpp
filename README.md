@@ -84,10 +84,67 @@ Password: Jude123
 
 ## 📷 Sample Console Output  
 
-      Super Market Main Menu            
-| 1) Administrator | <br>
-| 2) Buyer |<br>
-| 3) Exit |<br>
+
+```text
+____________________________________________
+                                            
+          Super Market Main Menu            
+____________________________________________
+
+|        1) Administrator                   |
+|        2) Buyer                           |
+|        3) Exit                            |
+
+Please select your choice: 1
+
+
+Please Login
+Enter the Email : jude24@gmail.com
+Password : Jude123
+
+
+        Administrator Menu
+
+|     1) Add the product       |
+|     2) Modify the product    |
+|     3) Delete the product    |
+|     4) Back to the main menu |
+
+Please Enter your choice: 1
+
+Add New Product
+ Product code of the product: 101
+ Name of the product: Soap
+ Price of the product: 30
+ Discount on product: 5
+
+Record inserted!
+```
+
+```text
+BUYER
+
+1) Buy Product
+2) Go Back
+
+Enter your choice: 1
+
+_____________________________________________________
+Product No     Name            Price
+_____________________________________________________
+101            Soap            30
+
+Please place the order
+Enter the Product code: 101
+Enter the product quantity: 2
+Do you want to buy another product? if yes then press y else n: n
+
+______________________RECEIPT__________________
+Product No   Name       Quantity   Price   Amount   Discounted Price
+101          Soap       2          30      60       57
+
+Total Amount: 57
+```
 
 
 ---
